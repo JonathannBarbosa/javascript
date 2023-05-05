@@ -17,3 +17,4 @@ for ( let pos=0; pos < valores.length; pos++) {
 for (let pos in valores){
   console.log(`O valor de ${pos} tem o valor ${valores[pos]}`)
 }
+
