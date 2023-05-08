@@ -11,17 +11,21 @@ function isNumero(n){
   }
 }
 
-function isLista(n, 1){
- i
-
+function isLista(n, ){                                 // na aula consta  n,1 em parenteses
+  if (lista.indexOf(Number(n)) != -1)
+    return true
+  else {
+    return false
+  }
 }
 
 
 function adicionar(){
-  if (isNumero(num.value) && isLista(num.value, valores)){
+  if (isNumero(num.value) && !isLista(num.value, valores)){
 
 } else {
-  alert('Valor inválido ou ja encontrado na lista')
+  alert('Valor inválido ou ja encontrado na lista!')
   }
 
 }
+
